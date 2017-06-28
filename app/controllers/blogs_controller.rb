@@ -35,7 +35,8 @@ class BlogsController < ApplicationController
         format.json { render json: @blog.errors, status: :unprocessable_entity }
       end
     end
-  end
+  end 
+  
 
   # PATCH/PUT /blogs/1
   # PATCH/PUT /blogs/1.json
