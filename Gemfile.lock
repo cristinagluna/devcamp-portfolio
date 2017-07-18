@@ -1,4 +1,10 @@
 GIT
+  remote: https://github.com/cristinagluna/luna_view_tool
+  revision: f2a3cacb95b4f7ef16d960a158de9adc66cb7e8f
+  specs:
+    luna_view_tool (0.1.0)
+
+GIT
   remote: https://github.com/twbs/bootstrap-rubygem
   revision: b156edfee2b9629ad4751ee2a118a04f824ef9eb
   specs:
@@ -198,6 +204,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  luna_view_tool!
   pg (~> 0.18)
   pry-byebug
   puma (~> 3.0)
