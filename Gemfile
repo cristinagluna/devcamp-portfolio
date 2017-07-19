@@ -56,4 +56,4 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.3'
 gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 
-gem 'luna_view_tool', git: 'https://github.com/cristinagluna/luna_view_tool'
+gem 'luna_view_tool', '~> 0.1.0'
