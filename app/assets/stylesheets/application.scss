@@ -4,12 +4,12 @@
  * Globals
  */
 
-/* Links */
 a,
 a:focus,
 a:hover {
   color: #fff;
 }
+
 
 /* Custom default button */
 .btn-secondary,
@@ -173,5 +173,39 @@ body {
 .auth-links a {
   color: black;
 }
+
+.register-text {
+  text-align: right;
+}
+
+.login > .card {
+  width: 22rem;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+
+.f.email_field {
+  color: #a941f4;
+  width: 22rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
