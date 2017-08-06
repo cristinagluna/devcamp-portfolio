@@ -17,7 +17,7 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    LunaViewTool::Renderer.copyright 'Cristina Luna', 'All rights reserved'
+    LunaViewTool::Renderer.copyright 'Jordan Hudgens', 'All rights reserved'
   end
 
   def nav_items
@@ -57,6 +57,18 @@ module ApplicationHelper
 
   def active? path
     "active" if current_page? path
+  end
+
+  def alerts
+    alert = (flash[:alert] || flash[:error] || flash[:notice])
+
+    if alert
+      alert_generator alert
+    end
+  end
+
+  def alert_generator msg
+    js add_gritter(msg, title: "Cristina Luna Portfolio", sticky: false)
   end
 
 end
