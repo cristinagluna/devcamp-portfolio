@@ -17,7 +17,7 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    LunaViewTool::Renderer.copyright 'Jordan Hudgens', 'All rights reserved'
+    LunaViewTool::Renderer.copyright 'Cristina Luna', 'All rights reserved'
   end
 
   def nav_items
