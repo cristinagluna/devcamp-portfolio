@@ -1,6 +1,6 @@
 @import "bootstrap";
-@import "jquery-ui";
 @import "gritter";
+
 /*
  * Globals
  */
@@ -157,7 +157,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 55rem;
+    width: 65rem;
   }
 }
 
@@ -168,6 +168,7 @@ body {
 .card-block {
   color: black;
   text-align: left;
+  padding: 30px;
 }
 
 .auth-links a {
@@ -208,6 +209,35 @@ body {
   color: white;
 }
 
+.tech-news {
+  color: black;
+  margin: 20px;
+}
+
+.tech-news > .card {
+  padding: 30px;
+}
+
+.tech-news a {
+  color: green;
+}
+
+.app-card-container {
+  color: black;
+  text-align: left;
+}
+
+.app-card-container > .card {
+  padding: 40px;
+}
+
+.profile-img {
+  border: 1px solid grey;
+}
+
+.app-card-container a {
+  color: blue;
+}
 
 
 
