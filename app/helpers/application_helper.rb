@@ -41,7 +41,7 @@ module ApplicationHelper
       {
         url: portfolios_path,
         title: 'Portfolio'
-      },
+      }
     ]
   end
 
